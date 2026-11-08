@@ -20,7 +20,7 @@ Auf Vercel als „Other"-Projekt importieren, Output-Verzeichnis = Repo-Root. Ke
 - [x] WhatsApp-Nummer
 - [x] Telefonnummer
 - [x] Domain: www.anicaboldt.de (Vercel, DNS bei INWX)
-- [ ] Postfach hallo@anicaboldt.de einrichten
+- [ ] Postfach moin@anicaboldt.de einrichten
 - [ ] Impressum: Anschrift, USt-IdNr. bzw. Kleinunternehmer-Hinweis (gelb markiert)
 - [ ] Datenschutzerklärung mit Generator passend zum Hoster erstellen
 - [ ] Texte zum Leistungsumfang mit Anica final abstimmen (StBerG: nur vorbereitende Tätigkeiten)
