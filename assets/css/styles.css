@@ -394,6 +394,26 @@ a { color: inherit; }
 .contact__text p { font-size: 1.15rem; max-width: 32em; margin-top: 24px; }
 .contact__actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
 .contact__mail { font-size: 0.95rem !important; color: var(--mist); margin-top: 18px !important; }
+.hours {
+  margin-top: 44px; padding-top: 28px;
+  border-top: 1px solid rgba(255,255,255,.16);
+  max-width: 34em;
+}
+.hours__title { font-size: 1.25rem; font-weight: 750; font-stretch: 85%; color: var(--white); margin-bottom: 14px; }
+.hours__list { margin: 0; }
+.hours__row {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 24px;
+  padding: 12px 0 12px 14px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-left: 4px solid transparent;
+}
+.hours__row.is-today { border-left-color: var(--yellow); }
+.hours__row dt { color: #DCE3E8; }
+.hours__row dd { margin: 0; color: var(--white); font-weight: 650; font-variant-numeric: tabular-nums; }
+.contact__text .hours__status { font-size: 0.95rem; color: var(--yellow); font-weight: 600; margin-top: 14px; }
+.contact__text .hours__note { font-size: 0.98rem; color: var(--mist); margin-top: 14px; }
+.contact__text .hours__note--strong { color: #DCE3E8; font-weight: 600; }
+@media (max-width: 480px) { .hours__row { grid-template-columns: 1fr; } }
 .contact__card { background: var(--white); color: var(--ink); padding: 12px 12px 18px; max-width: 340px; justify-self: end; border-radius: 3px; }
 .contact__card img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 2px; }
 .contact__card figcaption { padding: 14px 6px 0; font-size: 0.95rem; color: var(--slate); line-height: 1.4; }

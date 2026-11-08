@@ -231,9 +231,28 @@
           <p>Erzählen Sie mir, was bei Ihnen im Büro liegen bleibt. Danach wissen Sie, ob und wie ich Sie entlasten kann – und was es kostet.</p>
           <div class="contact__actions">
             <a class="btn btn--yellow" href="mailto:hallo@anica-boldt.de?subject=Erstgespr%C3%A4ch%20B%C3%BCroservice">E-Mail schreiben</a>
+            <!-- TODO: echte Mobilnummer für WhatsApp eintragen (ohne +, ohne führende 0) -->
+            <a class="btn btn--ghost" href="https://wa.me/491700000000" target="_blank" rel="noopener">WhatsApp</a>
             <a class="btn btn--ghost" href="tel:+494193000000">Anrufen: 04193 000000</a>
           </div>
           <p class="contact__mail">hallo@anica-boldt.de</p>
+
+          <div class="hours" aria-labelledby="hours-title">
+            <h3 class="hours__title" id="hours-title">Telefonsprechzeiten</h3>
+            <dl class="hours__list">
+              <div class="hours__row" data-days="1,2,3,4,5">
+                <dt>Montag bis Freitag</dt>
+                <dd>6–8 Uhr und 16–21 Uhr</dd>
+              </div>
+              <div class="hours__row" data-days="0,6">
+                <dt>Samstag und Sonntag</dt>
+                <dd>6–18 Uhr</dd>
+              </div>
+            </dl>
+            <p class="hours__status" id="hours-status" aria-live="polite" hidden></p>
+            <p class="hours__note">Handwerker fangen früh an – ich auch. Am besten vereinbaren wir vorab einen Telefontermin. Dazwischen bin ich für meine Kunden da und konzentriere mich voll auf ihre Unterlagen.</p>
+            <p class="hours__note hours__note--strong">Oder jederzeit per E-Mail oder WhatsApp – ich rufe Sie verlässlich zurück.</p>
+          </div>
         </div>
         <figure class="contact__card">
           <picture>

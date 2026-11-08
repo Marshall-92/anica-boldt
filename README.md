@@ -17,6 +17,7 @@ Auf Vercel als „Other"-Projekt importieren, Output-Verzeichnis = Repo-Root. Ke
 
 ## Vor dem Livegang ausfüllen
 
+- [ ] WhatsApp-Nummer (`index.html` → `wa.me/491700000000`)
 - [ ] Telefonnummer (`index.html` → Kontakt, `tel:`-Link) – aktuell Platzhalter `04193 000000`
 - [ ] E-Mail / Domain (`hallo@anica-boldt.de`, `canonical`, `og:image`, JSON-LD)
 - [ ] Impressum: Anschrift, USt-IdNr. bzw. Kleinunternehmer-Hinweis (gelb markiert)
