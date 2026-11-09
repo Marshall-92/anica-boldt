@@ -124,6 +124,7 @@ a { color: inherit; }
   display: flex; align-items: center; gap: 32px;
   min-height: 72px;
 }
+.brand + .btn { margin-left: auto; }
 .brand { display: flex; flex-direction: column; text-decoration: none; line-height: 1.1; }
 .brand__name {
   font-size: 1.45rem; font-weight: 800; font-stretch: var(--condensed);
